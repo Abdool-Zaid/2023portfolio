@@ -1,0 +1,227 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 17679,
+      "max": [
+        12.606499671936035,
+        -3.7239773273468018,
+        8.097785949707031
+      ],
+      "min": [
+        -14.295269966125488,
+        -35.06427764892578,
+        -2.342512607574463
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 212148,
+      "componentType": 5126,
+      "count": 17679,
+      "max": [
+        0.9997071623802185,
+        0.9999993443489075,
+        0.9999973773956299
+      ],
+      "min": [
+        -0.9999587535858154,
+        -0.9999524354934692,
+        -0.9999948740005493
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 17679,
+      "max": [
+        1.0,
+        0.9999994039535522,
+        0.9998632073402405,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999989867210388,
+        -0.9999833106994629,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 17679,
+      "max": [
+        0.9997239708900452,
+        0.9958490133285522
+      ],
+      "min": [
+        0.00024399999529123306,
+        0.00022499999613501132
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 59994,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Thomas Flynn (https://sketchfab.com/nebulousflynn)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/monumental-runic-stone-optimised-20k-d95a850cd9114828a18b5dd72878d9ec",
+      "title": "Monumental Runic Stone - Optimised, 20k"
+    },
+    "generator": "Sketchfab-15.12.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 239976,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 141432,
+      "byteOffset": 239976,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 424296,
+      "byteOffset": 381408,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 282864,
+      "byteOffset": 805704,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1088568,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Monumental_Runic_Stone_Ashmolean_Museum_20k_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Monumental_Runic_Stone_Ashmolean_Museum_20k_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Monumental_Runic_Stone_Ashmolean_Museum_20k",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        7.878635806650757e-19,
+        -1.60810330001862e-16,
+        0.0,
+        2.465190328815662e-32,
+        -0.9999880194664001,
+        -0.0048992754891517,
+        0.0,
+        -1.6081226229577292e-16,
+        0.0048992754891517,
+        -0.9999880194664001,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Monumental_Runic_Stone_Ashmolean_Museum_20k.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
